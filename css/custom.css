@@ -4,15 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
 
 .header-image {
     display: block;
     width: 100%;
+    height: 768px;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url('../assets/Background@1x.png') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,17 +18,17 @@ body {
 }
 
 .headline {
-    padding: 120px 0;
+    padding: 223px 0;
 }
 
 .headline h1 {
-    font-size: 130px;
+    font-size: 68px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
 
 .headline h2 {
-    font-size: 77px;
+    font-size: 22px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
@@ -87,11 +85,11 @@ footer {
 
 @media(max-width:991px) {
     .headline h1 {
-        font-size: 105px;
+        font-size: 68px;
     }
 
     .headline h2 {
-        font-size: 50px;
+        font-size: 22px;
     }
 
     .featurette-divider {
@@ -145,15 +143,15 @@ footer {
 
 @media(max-width:640px) {
     .headline {
-        padding: 75px 0 25px 0;
+        padding: 200px 0 25px 0;
     }
 
     .headline h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .headline h2 {
-        font-size: 30px;
+        font-size: 18px;
     }
 }
 
@@ -175,4 +173,27 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+}
+
+/*Above fold styles*/
+
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
+
+#sign-up {
+    display: inline-block;
+    float: right;
+    color: initial;
+    padding-right: 0;
+    padding-top: 20px;
+}
+
+/*Limits full screen container to 1000px*/
+
+@media (min-width: 1200px){
+  .container {
+      width: 1000px;
+  }
 }
