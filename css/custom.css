@@ -144,6 +144,15 @@ footer {
   margin-bottom: 57px;
 }
 
+/* Second Section Styles */
+
+#second-section{
+  text-align: center;
+}
+
+#second-section p{
+  margin-bottom:92px;
+}
 
 /*Limits full screen container to 1000px*/
 
