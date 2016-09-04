@@ -1,2 +1,0 @@
-# typedashWebsite
-Website for typedash
