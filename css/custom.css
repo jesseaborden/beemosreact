@@ -4,14 +4,58 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ /*Web Fonts*/
+
+@font-face {
+    font-family: "Apercu Regular";
+    src:  url('../fonts/apercu/apercu_regular.woff2') format('woff2'),
+            url('../fonts/apercu/apercu_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Apercu Bold";
+    src:  url('../fonts/apercu/apercu_bold.woff2') format('woff2'),
+            url('../fonts/apercu/apercu_bold.woff') format('woff');
+}
+
 /*General Styles*/
+
+p,h2 {
+  font-family: "Apercu Regular";
+}
+
+h1 {
+    font-family: "Apercu Bold";
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
 
 .container {
   padding-left: 0;
   padding-right: 0;
+  margin-bottom: 83px;
+}
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none !important;
+  color: #303030 !important;
+}
+
+.row {
+  margin:20px;
 }
 
 /* Hero styles */
+
+a#sign-up {
+  padding-right:40px;
+}
 
 .header-image {
     display: block;
@@ -83,6 +127,7 @@ footer {
 
     .headline h2 {
         font-size: 18px;
+        padding: 0 20px;
     }
 }
 
@@ -108,9 +153,52 @@ footer {
 
 /*Above fold styles*/
 
+
 .navbar-inverse {
     background-color: transparent;
     border: none;
+}
+
+#nav-list {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+}
+#nav-list li {
+  display: inline-block;
+  float: left;
+}
+
+.btn-circle {
+  width: 11px;
+  height: 11px;
+  font-size: 12px;
+  border-radius: 15px;
+  padding: 0px;
+  margin-right: 9px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+
+#orange-button {
+  background-color:#f7b74c;
+}
+
+#purple-button {
+  background-color:#f052f7;
+}
+
+#green-button {
+  background-color:#16d28d;
+}
+
+#blue-button {
+  background-color:#07acff;
 }
 
 #sign-up {
@@ -171,6 +259,21 @@ svg {
 
 img {
   margin:auto;
+}
+
+#last-hr {
+  margin-bottom: 32px;
+}
+
+/* Footer Section Styles */
+
+#footer-header h2 {
+  font-size: 50px;
+  margin-bottom: 14px;
+}
+
+#footer-links {
+  font-size: 18px;
 }
 
 /*Limits full screen container to 1000px*/

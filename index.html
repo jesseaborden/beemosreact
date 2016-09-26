@@ -29,11 +29,20 @@
 <body>
     <!-- Full Width Image Header -->
     <header class="header-image">
-      <ul class="nav container">
-          <li>
-              <a href="#" id="sign-up">Sign up</a>
+      <div class="nav container">
+        <ul id="nav-list">
+          <li><button type="button" id="orange-button" class="btn btn-circle"></button>
           </li>
-      </ul>
+          <li><button type="button" id="purple-button" class="btn btn-circle"></button>
+          </li>
+          <li><button type="button" id="green-button" class="btn btn-circle"></button>
+          </li>
+          <li><button type="button" id="blue-button" class="btn btn-circle"></button>
+          </li>
+        </ul>
+              <a href="#" id="sign-up">Get Extension</a>
+
+      </div>
         <div class="headline">
             <div class="container">
                 <h1>Welcome to Typedash</h1>
@@ -54,8 +63,8 @@
             <h2 class="section-h2 text-center">An Introduction to Typedash</h2>
             <h3 class="section-h3 text-center">Here’s a quick look into what Typedash can do.</h3>
             <video poster="assets/Browser1x.png" loop autoplay muted preload ="auto" id="browser-video">
-			        <source src="assets/Waves.webm" type="video/webm">
-			        <source src="assets/Waves.mp4" type="video/mp4">
+<!-- 			        <source src="assets/Waves.webm" type="video/webm"> -->
+			        <source src="assets/preview.mp4" type="video/mp4">
     			  </video>
         </div>
 
@@ -167,17 +176,30 @@
 
         <hr class="featurette-divider">
 
-        <!-- Third Featurette -->
+        <!-- Third Section -->
         <div class="row" id="third-section">
           <div class="col-sm-6">
             <img src= "assets/Your_Dash_Your_Look_Image@1x.png" class="img-responsive">
           </div>
           <div class="col-sm-6">
-            <h2>Custom Look</h2>
-            <p>Choose from Typedash’s list of favorite fonts to customize your dashboard. Choose background
-              colors too. Themes coming soon!</p>
+            <h2>Your dashboard, your look</h2>
+            <p>One of the founding reasons we started Typedash was to create a dashboard that looked the way we wanted it to. We plan to roll out new colors and fonts in the coming months as well as custom themes by our favorite designers and illustrators. </p>
             <button id="hero-cta">Get Chrome Extension</button>
           </div>
+        </div>
+        <hr class="featurette-divider" id="last-hr">
+        <!-- Footer Section -->
+        <div class="row" id="footer-header">
+          <div class="col-xs-12 text-center">
+            <h2>Typedash</h2>
+          </div>
+        <div class="row" id="footer-links">
+          <div class="col-xs-12 text-center">
+            <a href="#"><span>Twitter</span></a>
+            <span>&middot;</span>
+            <a href="#"><span>Blog</span></a>
+            <span>&middot;</span>
+            <a href="#"><span>Contact</span></a>
         </div>
     <!-- /.container -->
 
