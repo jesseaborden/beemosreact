@@ -266,6 +266,10 @@ img {
 }
 
 /* Footer Section Styles */
+#footer-header{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 #footer-header h2 {
   font-size: 50px;
@@ -274,6 +278,7 @@ img {
 
 #footer-links {
   font-size: 18px;
+  padding:0px;
 }
 
 /*Limits full screen container to 1000px*/
