@@ -20,12 +20,24 @@
 
 /*General Styles*/
 
-p,h2 {
-  font-family: "Apercu Regular";
+html {
+  color:#303030 !important;
+}
+
+html p {
+  font-size: 16px;
+}
+
+p,a,.headline h2,h3 {
+  font-family: "Apercu Regular" !important;
+}
+
+h1,h2,button {
+    font-family: "Apercu Bold";
 }
 
 h1 {
-    font-family: "Apercu Bold";
+  background: transparent !important;
 }
 
 textarea:focus, input:focus{
@@ -40,6 +52,7 @@ textarea:focus, input:focus{
   padding-left: 0;
   padding-right: 0;
   margin-bottom: 83px;
+  background: transparent !important;
 }
 
 a, a:hover, a:visited, a:active {
@@ -55,18 +68,22 @@ a, a:hover, a:visited, a:active {
 
 a#sign-up {
   padding-right:40px;
+  font-size: 18px;
 }
 
 .header-image {
     display: block;
     max-width: 1375px;
     text-align: center;
-    background: url('../assets/Background@1x.png') no-repeat center center scroll;
+    background: url('../assets/Background@2x.png') no-repeat center center scroll;
+    background-size: 1375px;
+    background-position-y: 100px;
     margin: 0 auto;
 }
 
 .headline {
-    padding: 223px 0;
+    position: static;
+    padding: 107px 0;
 }
 
 .headline h1 {
@@ -90,8 +107,8 @@ a#sign-up {
 }
 
 .featurette-divider {
-    margin: 80px 0;
-    width: 1000px;
+  margin: 80px 0;
+  max-width: 1000px;
 	height: 3px;
 	background-color: #f7f7f7;
 }
@@ -213,13 +230,15 @@ footer {
   background:none;
 }
 
-#hero-cta{
+.hero-cta{
   width: 319px;
-	height: 56px;
-	background-color: #16d28d;
+  height: 56px;
+  background-color: #16d28d;
   font-size:18px;
   color:#fff;
   margin-top: 43px;
+  border-width: 0px 0px 4px 0px;
+  border-bottom: 4px #10ad74;
 }
 
 /* First Section Styles */
@@ -238,9 +257,11 @@ footer {
   text-align: center;
 }
 
-#second-section p{
+#second-section p {
   margin-bottom:92px;
 }
+
+
 
 svg {
     height: 100px;
@@ -257,12 +278,17 @@ svg {
   }
 }
 
-img {
-  margin:auto;
-}
-
 #last-hr {
   margin-bottom: 32px;
+}
+
+div#third-section {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#third-section .col-sm-6 {
+    padding: 0;
 }
 
 /* Footer Section Styles */
@@ -281,10 +307,52 @@ img {
   padding:0px;
 }
 
+#preview-pic {
+    width: 427px;
+    margin-left:0px;
+  }
+
+#third-section-image-container{
+  padding-left: 0px;
+}
+#look-section{
+  padding-right: 0px;
+}
+
+#third-section .hero-cta {
+  width: 200px;
+}
+
+.dot {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 /*Limits full screen container to 1000px*/
 
 @media (min-width: 1200px){
   .container {
       width: 1000px;
   }
+}
+
+@media (max-width: 992px){
+  #preview-pic {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 350px;
+    margin:auto;
+  }
+  #look-section{
+    text-align: center;
+    margin-top: 25px;
+    padding-left:10px;
+    padding-right: 10px;
+    margin: auto;
+    max-width: 600px;
+  }
+  .dot {
+    margin-left: 2px;
+    margin-right: 2px;
+}
 }
