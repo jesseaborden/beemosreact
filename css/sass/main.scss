@@ -1,0 +1,84 @@
+// Hero section
+#hero-section {
+  max-width: 1375px;
+  margin: 0 auto;
+  // #hero-blocks {
+  //   height: inherit;
+  //   width: 100vw;
+  //   display: flex;
+  //   flex-flow: wrap;
+  //   position:  absolute;
+  //   div {
+  //     width: 50%;
+  //     height: 50%;
+  //     &:hover {
+  //       background-color: red;
+  //       opacity: .02;
+  //     }
+  //   }
+  // }
+
+  nav ul {
+    margin-bottom: 83px;
+    padding-left: 0;
+    padding-top: 40px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header {
+    padding: 107px 0 275px;
+    max-width: 1170px;
+    margin: 0 auto 83px;
+    text-align:  center;
+    border-bottom: 3px solid #f7f7f7;
+    h1 {
+      margin: 0;
+      font-size: 0;
+    }
+    span {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 43px;
+    }
+    img {
+      width: 283px;
+      padding:  10px 110px;
+    }
+  }
+
+  button {
+    font-size: 27px;
+    padding:  10px 110px;
+    background-color: #db3e3e;
+    color: #fff;
+  }
+
+}
+
+// Icon Section
+
+#icon-section {
+  max-width: 1170px;
+  text-align: center;
+  margin: 10px auto 0px;
+  padding-bottom: 100px;
+  border-bottom: 3px solid #f7f7f7;
+  div {
+    display: inline-block;
+  }
+  svg {
+    width: 95px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  span {
+    padding: 0 36px;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+  }
+}

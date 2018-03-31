@@ -1,0 +1,23 @@
+{
+  "name": "beemosreact",
+  "version": "1.0.0",
+  "description": "Landing page for Beemos - reAct IOS app",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseaborden/beemosreact.git"
+  },
+  "author": "Jesse Borden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesseaborden/beemosreact/issues"
+  },
+  "homepage": "https://github.com/jesseaborden/beemosreact#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1"
+  }
+}
